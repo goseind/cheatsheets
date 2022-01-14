@@ -8,3 +8,15 @@ sudo apt-get update && sudo apt-get install terraform
 touch ~/.bashrc
 terraform -install-autocomplete
 
+# basic management
+terraform state list
+terraform show
+terraform output
+trraform init
+terraform plan
+terraform apply -target=xy
+terraform destroy
+
+# check formating
+terraform fmt
+terraform validate
