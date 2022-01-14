@@ -13,3 +13,6 @@ echo installing cloud tools..
 sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-get install -y docker
 sudo apt-get install -y terraform
+
+# azure cli
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
