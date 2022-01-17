@@ -9,6 +9,7 @@ git clone <repo address>
 
 # branches
 git branch -a # list both local and remote branches
+git fetch -p # fetch and delete local branches if not remote
 
 # delete branches
 git push origin --delete <branchname> # remote
