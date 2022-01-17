@@ -6,13 +6,15 @@ git checkout -b branchename # create new and checkout
 git fetch
 git status
 git clone <repo address>
+git pull
+git push
 
 # branches
 git branch -a # list both local and remote branches
 git fetch -p # fetch and delete local branches if not remote
 
 # delete branches
-git push origin --delete <branchname> # remote
+git push -d <remotename> <branchname> # remote
 git branch -D <branchname> # local not merged -d merged
 
 # tags
