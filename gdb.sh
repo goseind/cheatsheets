@@ -1,9 +1,14 @@
 # gdb cheatsheet
+# docs https://www.sourceware.org/gdb/documentation/
 
 # CTRL-D: Beendet den Debugger
 # Stop prgramm with Ctrl+C
 
-info functions # show all 
+# show all
+info functions
+info registers
+info symbols
+info address
 
 run/r # start program inside gdb
 backtrace/bt # show stack
