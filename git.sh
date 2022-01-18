@@ -8,6 +8,7 @@ git status
 git clone <repo address>
 git pull
 git push
+git merge <branch>
 
 # branches
 git branch -a # list both local and remote branches
