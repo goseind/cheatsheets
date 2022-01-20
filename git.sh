@@ -1,14 +1,15 @@
 # git cheatsheet
 
 # basics
-git checkout branchname # checkout exisitng branch
-git checkout -b branchename # create new and checkout
+git checkout <branchname> # checkout exisitng branch
+git checkout -b <branchname> # create new and checkout
 git fetch
 git status
 git clone <repo address>
 git pull
 git push
-git merge <branch>
+git merge <branchname>
+git rebase <branchname> # local rebase with e. g. master
 
 # branches
 git branch -a # list both local and remote branches
