@@ -1,5 +1,8 @@
 # Docker cheatsheet
 
+# build docker images
+docker build -t <imagename> . # Dockerfile in current dir
+
 # run interactive ubuntu bash
 docker run -i -t ubuntu /bin/bash
 
