@@ -1,4 +1,4 @@
-# Docker cheatsheet
+# Docker cheatsheet: https://dockerlabs.collabnix.com/docker/cheatsheet/
 
 # build docker images
 docker build -t <imagename> . # Dockerfile in current dir
