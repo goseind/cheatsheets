@@ -15,6 +15,12 @@ git rebase <branchname> # local rebase with e. g. master
 git branch -a # list both local and remote branches
 git fetch -p # fetch and delete local branches if not remote
 
+# rename branch
+git branch -m <oldname> <newname>
+git branch -m <newname>
+git push origin -u <newname>
+git push origin --delete <oldname>
+
 # delete branches
 git push -d <remotename> <branchname> # remote
 git branch -D <branchname> # local not merged -d merged
