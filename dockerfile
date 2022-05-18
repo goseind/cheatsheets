@@ -7,6 +7,7 @@ docker build -t <imagename> . # Dockerfile in current dir
 docker run -i -t ubuntu /bin/bash
 docker run -dp <image-port>:<web-port> <imagename>
 docker stop <name>
+docker kill <name>
 
 # list images or containers
 docker ps # all -a # only ids -q
@@ -21,4 +22,4 @@ docker rm -f $(docker ps -aq)
 docker system prune -f -a --volumes
 
 # logs
-docker logs --follow
+docker logs --follow <name>
