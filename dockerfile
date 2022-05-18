@@ -16,3 +16,9 @@ docker images
 docker rm -f id
 docker rmi -f $(docker images -aq)
 docker rm -f $(docker ps -aq)
+
+# remove all docker files
+docker system prune -f -a --volumes
+
+# logs
+docker logs --follow
