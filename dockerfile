@@ -23,3 +23,8 @@ docker system prune -f -a --volumes
 
 # logs
 docker logs --follow <name>
+
+# docker compose
+docker-compose up -d
+docker-compose down
+docker-compose up --remove-orphans
